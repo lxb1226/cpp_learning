@@ -1,0 +1,8 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/heyjude/workspace/projects/backup/cmake/t6
+cmake_module_path: /home/heyjude/workspace/projects/backup/cmake/t6/cmake
+HELLO_INCLUDE_DIR: /tmp/t2/usr/include/hello
+HELLO_LIBRARY: /tmp/t2/usr/lib/libhello.so
+-- Found Hello: /tmp/t2/usr/lib/libhello.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/heyjude/workspace/projects/backup/cmake/t6/cmake-build-debug

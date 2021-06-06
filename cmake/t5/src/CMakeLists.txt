@@ -1,0 +1,16 @@
+
+# 找到CURL头文件，并且链接上
+#INCLUDE_DIRECTORIES(/usr/include)
+#ADD_EXECUTABLE(curltest main.c)
+#TARGET_LINK_LIBRARIES(curltest curl)
+
+# 第二种方法，使用FindCURL模块
+ADD_EXECUTABLE(curltest main.c)
+FIND_PACKAGE(CURL)
+IF(CURL_FOUND)
+    INCLUDE_DIRECTORIES(${CURL_INCLUDE_DIR})
+    TARGET_LINK_LIBRARIES(curltest ${CURL_LIBRARY})
+ELSE(CURL_FOUND)
+    MESSAGE(FATAL_ERROR "CURL library not found")
+ENDIF(CURL_FOUND)
+
