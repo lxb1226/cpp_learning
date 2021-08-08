@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/cppLearning/concurrencylearning
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/cppLearning/concurrencylearning/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cppLearning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/cppLearning/concurrencylearning/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cppLearning/concurrencylearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named example3_2
+
+# Build rule for target.
+example3_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example3_2
+.PHONY : example3_2
+
+# fast build rule for target.
+example3_2/fast:
+	$(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
+.PHONY : example3_2/fast
+
+#=============================================================================
 # Target rules for targets named example04
 
 # Build rule for target.
@@ -123,6 +136,19 @@ example04/fast:
 	$(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/build
 .PHONY : example04/fast
 
+#=============================================================================
+# Target rules for targets named example3_1
+
+# Build rule for target.
+example3_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example3_1
+.PHONY : example3_1
+
+# fast build rule for target.
+example3_1/fast:
+	$(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/build
+.PHONY : example3_1/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -131,7 +157,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... example3_2"
 	@echo "... example04"
+	@echo "... example3_1"
 .PHONY : help
 
 

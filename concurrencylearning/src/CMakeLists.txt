@@ -1,2 +1,6 @@
 add_executable(example04 example04.cpp)
 target_link_libraries(example04 pthread)
+add_executable(example3_1 example3_1.cpp)
+target_link_libraries(example3_1 pthread)
+add_executable(example3_2 example3_2.cpp)
+target_link_libraries(example3_2 pthread)

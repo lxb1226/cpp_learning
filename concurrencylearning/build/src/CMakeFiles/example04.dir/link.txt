@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/example04.dir/example04.cpp.o  -o example04 -lpthread 
+/usr/bin/c++     CMakeFiles/example04.dir/example04.cpp.o  -o example04 -lpthread 

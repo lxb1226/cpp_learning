@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src/example04.cpp
+/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src/example3_2.cpp
 iostream
 -
-functional
+chrono
 -
 thread
 -
-future
+mutex
 -
 
