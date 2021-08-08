@@ -1,0 +1,6 @@
+add_executable(example8_1 example8_1.cpp)
+add_executable(example8_2 example8_2.cpp)
+add_executable(example8_3 example8_3.cpp)
+add_executable(example8_4 example8_4.cpp)
+# add_executable(example8_9 example8_9.cpp)
+add_executable(example8_14 example8_14.cpp)

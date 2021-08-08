@@ -1,0 +1,2 @@
+add_executable(example04 example04.cpp)
+target_link_libraries(example04 pthread)

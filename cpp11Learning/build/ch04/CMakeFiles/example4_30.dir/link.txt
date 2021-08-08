@@ -1,0 +1,1 @@
+/usr/bin/c++  -fno-elide-constructors -g   CMakeFiles/example4_30.dir/example4_30.cpp.o  -o example4_30 

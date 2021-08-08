@@ -1,0 +1,1 @@
+/usr/bin/c++  -fno-elide-constructors -g   CMakeFiles/example6_21.dir/example6_21.cpp.o  -o example6_21 -lpthread 
