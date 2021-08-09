@@ -111,21 +111,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/example3_2.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_2.dir/rule
-.PHONY : src/CMakeFiles/example3_2.dir/rule
-
-# Convenience name for target.
-example3_2: src/CMakeFiles/example3_2.dir/rule
-
-.PHONY : example3_2
-
-# fast build rule for target.
-example3_2/fast:
-	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
-.PHONY : example3_2/fast
-
-# Convenience name for target.
 src/CMakeFiles/example04.dir/rule:
 	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example04.dir/rule
 .PHONY : src/CMakeFiles/example04.dir/rule
@@ -154,6 +139,51 @@ example3_1: src/CMakeFiles/example3_1.dir/rule
 example3_1/fast:
 	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/build
 .PHONY : example3_1/fast
+
+# Convenience name for target.
+src/CMakeFiles/example3_2.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_2.dir/rule
+.PHONY : src/CMakeFiles/example3_2.dir/rule
+
+# Convenience name for target.
+example3_2: src/CMakeFiles/example3_2.dir/rule
+
+.PHONY : example3_2
+
+# fast build rule for target.
+example3_2/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
+.PHONY : example3_2/fast
+
+# Convenience name for target.
+src/CMakeFiles/example3_3.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_3.dir/rule
+.PHONY : src/CMakeFiles/example3_3.dir/rule
+
+# Convenience name for target.
+example3_3: src/CMakeFiles/example3_3.dir/rule
+
+.PHONY : example3_3
+
+# fast build rule for target.
+example3_3/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/build
+.PHONY : example3_3/fast
+
+# Convenience name for target.
+src/CMakeFiles/example3_4.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_4.dir/rule
+.PHONY : src/CMakeFiles/example3_4.dir/rule
+
+# Convenience name for target.
+example3_4: src/CMakeFiles/example3_4.dir/rule
+
+.PHONY : example3_4
+
+# fast build rule for target.
+example3_4/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/build
+.PHONY : example3_4/fast
 
 example04.o: example04.cpp.o
 
@@ -236,6 +266,60 @@ example3_2.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/example3_2.cpp.s
 .PHONY : example3_2.cpp.s
 
+example3_3.o: example3_3.cpp.o
+
+.PHONY : example3_3.o
+
+# target to build an object file
+example3_3.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.o
+.PHONY : example3_3.cpp.o
+
+example3_3.i: example3_3.cpp.i
+
+.PHONY : example3_3.i
+
+# target to preprocess a source file
+example3_3.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.i
+.PHONY : example3_3.cpp.i
+
+example3_3.s: example3_3.cpp.s
+
+.PHONY : example3_3.s
+
+# target to generate assembly for a file
+example3_3.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.s
+.PHONY : example3_3.cpp.s
+
+example3_4.o: example3_4.cpp.o
+
+.PHONY : example3_4.o
+
+# target to build an object file
+example3_4.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.o
+.PHONY : example3_4.cpp.o
+
+example3_4.i: example3_4.cpp.i
+
+.PHONY : example3_4.i
+
+# target to preprocess a source file
+example3_4.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.i
+.PHONY : example3_4.cpp.i
+
+example3_4.s: example3_4.cpp.s
+
+.PHONY : example3_4.s
+
+# target to generate assembly for a file
+example3_4.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.s
+.PHONY : example3_4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,10 +327,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... example3_2"
 	@echo "... example04"
 	@echo "... example3_1"
+	@echo "... example3_2"
+	@echo "... example3_3"
+	@echo "... example3_4"
+	@echo "... edit_cache"
 	@echo "... example04.o"
 	@echo "... example04.i"
 	@echo "... example04.s"
@@ -256,6 +342,12 @@ help:
 	@echo "... example3_2.o"
 	@echo "... example3_2.i"
 	@echo "... example3_2.s"
+	@echo "... example3_3.o"
+	@echo "... example3_3.i"
+	@echo "... example3_3.s"
+	@echo "... example3_4.o"
+	@echo "... example3_4.i"
+	@echo "... example3_4.s"
 .PHONY : help
 
 

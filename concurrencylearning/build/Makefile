@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example3_2
-
-# Build rule for target.
-example3_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example3_2
-.PHONY : example3_2
-
-# fast build rule for target.
-example3_2/fast:
-	$(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
-.PHONY : example3_2/fast
-
-#=============================================================================
 # Target rules for targets named example04
 
 # Build rule for target.
@@ -149,6 +136,45 @@ example3_1/fast:
 	$(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/build
 .PHONY : example3_1/fast
 
+#=============================================================================
+# Target rules for targets named example3_2
+
+# Build rule for target.
+example3_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example3_2
+.PHONY : example3_2
+
+# fast build rule for target.
+example3_2/fast:
+	$(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
+.PHONY : example3_2/fast
+
+#=============================================================================
+# Target rules for targets named example3_3
+
+# Build rule for target.
+example3_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example3_3
+.PHONY : example3_3
+
+# fast build rule for target.
+example3_3/fast:
+	$(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/build
+.PHONY : example3_3/fast
+
+#=============================================================================
+# Target rules for targets named example3_4
+
+# Build rule for target.
+example3_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example3_4
+.PHONY : example3_4
+
+# fast build rule for target.
+example3_4/fast:
+	$(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/build
+.PHONY : example3_4/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,9 +183,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... example3_2"
 	@echo "... example04"
 	@echo "... example3_1"
+	@echo "... example3_2"
+	@echo "... example3_3"
+	@echo "... example3_4"
 .PHONY : help
 
 
