@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src/example6_1.cpp
+iostream
+-
+atomic
+-
+thread
+-
+vector
+-
+

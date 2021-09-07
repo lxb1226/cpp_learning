@@ -54,29 +54,35 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
+src/all: src/CMakeFiles/example6_3.dir/all
+src/all: src/CMakeFiles/example6_2.dir/all
 src/all: src/CMakeFiles/example04.dir/all
 src/all: src/CMakeFiles/example3_1.dir/all
 src/all: src/CMakeFiles/example3_2.dir/all
 src/all: src/CMakeFiles/example3_3.dir/all
 src/all: src/CMakeFiles/example3_4.dir/all
+src/all: src/CMakeFiles/example6_1.dir/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
+src/clean: src/CMakeFiles/example6_3.dir/clean
+src/clean: src/CMakeFiles/example6_2.dir/clean
 src/clean: src/CMakeFiles/example04.dir/clean
 src/clean: src/CMakeFiles/example3_1.dir/clean
 src/clean: src/CMakeFiles/example3_2.dir/clean
 src/clean: src/CMakeFiles/example3_3.dir/clean
 src/clean: src/CMakeFiles/example3_4.dir/clean
+src/clean: src/CMakeFiles/example6_1.dir/clean
 
 .PHONY : src/clean
 
@@ -86,13 +92,87 @@ src/preinstall:
 .PHONY : src/preinstall
 
 #=============================================================================
+# Target rules for target src/CMakeFiles/example6_3.dir
+
+# All Build rule for target.
+src/CMakeFiles/example6_3.dir/all:
+	$(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/depend
+	$(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=15,16 "Built target example6_3"
+.PHONY : src/CMakeFiles/example6_3.dir/all
+
+# Include target in all.
+all: src/CMakeFiles/example6_3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/example6_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/example6_3.dir/rule
+
+# Convenience name for target.
+example6_3: src/CMakeFiles/example6_3.dir/rule
+
+.PHONY : example6_3
+
+# clean rule for target.
+src/CMakeFiles/example6_3.dir/clean:
+	$(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/clean
+.PHONY : src/CMakeFiles/example6_3.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/example6_3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/example6_2.dir
+
+# All Build rule for target.
+src/CMakeFiles/example6_2.dir/all:
+	$(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/depend
+	$(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=13,14 "Built target example6_2"
+.PHONY : src/CMakeFiles/example6_2.dir/all
+
+# Include target in all.
+all: src/CMakeFiles/example6_2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/example6_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/example6_2.dir/rule
+
+# Convenience name for target.
+example6_2: src/CMakeFiles/example6_2.dir/rule
+
+.PHONY : example6_2
+
+# clean rule for target.
+src/CMakeFiles/example6_2.dir/clean:
+	$(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/clean
+.PHONY : src/CMakeFiles/example6_2.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/example6_2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target src/CMakeFiles/example04.dir
 
 # All Build rule for target.
 src/CMakeFiles/example04.dir/all:
 	$(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/depend
 	$(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=1,2 "Built target example04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=1,2 "Built target example04"
 .PHONY : src/CMakeFiles/example04.dir/all
 
 # Include target in all.
@@ -102,9 +182,9 @@ all: src/CMakeFiles/example04.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/example04.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example04.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/example04.dir/rule
 
 # Convenience name for target.
@@ -129,7 +209,7 @@ clean: src/CMakeFiles/example04.dir/clean
 src/CMakeFiles/example3_1.dir/all:
 	$(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/depend
 	$(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=3,4 "Built target example3_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=3,4 "Built target example3_1"
 .PHONY : src/CMakeFiles/example3_1.dir/all
 
 # Include target in all.
@@ -139,9 +219,9 @@ all: src/CMakeFiles/example3_1.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/example3_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/example3_1.dir/rule
 
 # Convenience name for target.
@@ -166,7 +246,7 @@ clean: src/CMakeFiles/example3_1.dir/clean
 src/CMakeFiles/example3_2.dir/all:
 	$(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/depend
 	$(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=5,6 "Built target example3_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=5,6 "Built target example3_2"
 .PHONY : src/CMakeFiles/example3_2.dir/all
 
 # Include target in all.
@@ -176,9 +256,9 @@ all: src/CMakeFiles/example3_2.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/example3_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/example3_2.dir/rule
 
 # Convenience name for target.
@@ -203,7 +283,7 @@ clean: src/CMakeFiles/example3_2.dir/clean
 src/CMakeFiles/example3_3.dir/all:
 	$(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/depend
 	$(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=7,8 "Built target example3_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=7,8 "Built target example3_3"
 .PHONY : src/CMakeFiles/example3_3.dir/all
 
 # Include target in all.
@@ -213,9 +293,9 @@ all: src/CMakeFiles/example3_3.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/example3_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/example3_3.dir/rule
 
 # Convenience name for target.
@@ -240,7 +320,7 @@ clean: src/CMakeFiles/example3_3.dir/clean
 src/CMakeFiles/example3_4.dir/all:
 	$(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/depend
 	$(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=9,10 "Built target example3_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=9,10 "Built target example3_4"
 .PHONY : src/CMakeFiles/example3_4.dir/all
 
 # Include target in all.
@@ -250,9 +330,9 @@ all: src/CMakeFiles/example3_4.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/example3_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/example3_4.dir/rule
 
 # Convenience name for target.
@@ -267,6 +347,43 @@ src/CMakeFiles/example3_4.dir/clean:
 
 # clean rule for target.
 clean: src/CMakeFiles/example3_4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/example6_1.dir
+
+# All Build rule for target.
+src/CMakeFiles/example6_1.dir/all:
+	$(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/depend
+	$(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=11,12 "Built target example6_1"
+.PHONY : src/CMakeFiles/example6_1.dir/all
+
+# Include target in all.
+all: src/CMakeFiles/example6_1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/example6_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/example6_1.dir/rule
+
+# Convenience name for target.
+example6_1: src/CMakeFiles/example6_1.dir/rule
+
+.PHONY : example6_1
+
+# clean rule for target.
+src/CMakeFiles/example6_1.dir/clean:
+	$(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/clean
+.PHONY : src/CMakeFiles/example6_1.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/example6_1.dir/clean
 
 .PHONY : clean
 
