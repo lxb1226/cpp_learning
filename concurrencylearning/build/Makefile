@@ -214,6 +214,32 @@ example6_1/fast:
 	$(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/build
 .PHONY : example6_1/fast
 
+#=============================================================================
+# Target rules for targets named 04_thread_self_manage
+
+# Build rule for target.
+04_thread_self_manage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 04_thread_self_manage
+.PHONY : 04_thread_self_manage
+
+# fast build rule for target.
+04_thread_self_manage/fast:
+	$(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/build
+.PHONY : 04_thread_self_manage/fast
+
+#=============================================================================
+# Target rules for targets named 12_async_task
+
+# Build rule for target.
+12_async_task: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 12_async_task
+.PHONY : 12_async_task
+
+# fast build rule for target.
+12_async_task/fast:
+	$(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/build
+.PHONY : 12_async_task/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -230,6 +256,8 @@ help:
 	@echo "... example3_3"
 	@echo "... example3_4"
 	@echo "... example6_1"
+	@echo "... 04_thread_self_manage"
+	@echo "... 12_async_task"
 .PHONY : help
 
 

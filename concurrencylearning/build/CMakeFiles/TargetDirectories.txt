@@ -10,3 +10,7 @@
 /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src/CMakeFiles/example3_4.dir
 /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src/CMakeFiles/edit_cache.dir
 /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src/CMakeFiles/example6_1.dir
+/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/rebuild_cache.dir
+/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/edit_cache.dir
+/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/04_thread_self_manage.dir
+/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/12_async_task.dir

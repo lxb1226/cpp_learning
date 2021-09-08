@@ -1,0 +1,4 @@
+add_executable(04_thread_self_manage 04_thread_self_manage.cpp)
+target_link_libraries(04_thread_self_manage pthread)
+add_executable(12_async_task 12_async_task.cpp)
+target_link_libraries(12_async_task pthread)

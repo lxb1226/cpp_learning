@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.o  -o 04_thread_self_manage -lpthread 
