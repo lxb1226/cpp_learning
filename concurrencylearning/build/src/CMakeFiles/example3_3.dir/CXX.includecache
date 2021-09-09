@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src/example3_3.cpp
+/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src/example3_3.cpp
 iostream
 -
 thread

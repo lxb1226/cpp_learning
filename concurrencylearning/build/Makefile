@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -240,6 +240,19 @@ example6_1/fast:
 	$(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/build
 .PHONY : 12_async_task/fast
 
+#=============================================================================
+# Target rules for targets named test01
+
+# Build rule for target.
+test01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test01
+.PHONY : test01
+
+# fast build rule for target.
+test01/fast:
+	$(MAKE) -f threadpool/CMakeFiles/test01.dir/build.make threadpool/CMakeFiles/test01.dir/build
+.PHONY : test01/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -258,6 +271,7 @@ help:
 	@echo "... example6_1"
 	@echo "... 04_thread_self_manage"
 	@echo "... 12_async_task"
+	@echo "... test01"
 .PHONY : help
 
 

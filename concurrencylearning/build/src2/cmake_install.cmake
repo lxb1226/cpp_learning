@@ -1,4 +1,4 @@
-# Install script for directory: /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src2
+# Install script for directory: /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
