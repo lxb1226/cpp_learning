@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src2/04_thread_self_manage.cpp" "/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.o"
+  "/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src2/04_thread_self_manage.cpp" "/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

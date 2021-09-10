@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/progress.marks
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/progress.marks
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/clean
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src2/CMakeFiles/04_thread_self_manage.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/CMakeFiles/04_thread_self_manage.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/CMakeFiles/04_thread_self_manage.dir/rule
 .PHONY : src2/CMakeFiles/04_thread_self_manage.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ src2/CMakeFiles/04_thread_self_manage.dir/rule:
 
 # fast build rule for target.
 04_thread_self_manage/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/build
 .PHONY : 04_thread_self_manage/fast
 
 # Convenience name for target.
 src2/CMakeFiles/12_async_task.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/CMakeFiles/12_async_task.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src2/CMakeFiles/12_async_task.dir/rule
 .PHONY : src2/CMakeFiles/12_async_task.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ src2/CMakeFiles/12_async_task.dir/rule:
 
 # fast build rule for target.
 12_async_task/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/build
 .PHONY : 12_async_task/fast
 
 04_thread_self_manage.o: 04_thread_self_manage.cpp.o
@@ -146,7 +146,7 @@ src2/CMakeFiles/12_async_task.dir/rule:
 
 # target to build an object file
 04_thread_self_manage.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.o
 .PHONY : 04_thread_self_manage.cpp.o
 
 04_thread_self_manage.i: 04_thread_self_manage.cpp.i
@@ -155,7 +155,7 @@ src2/CMakeFiles/12_async_task.dir/rule:
 
 # target to preprocess a source file
 04_thread_self_manage.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.i
 .PHONY : 04_thread_self_manage.cpp.i
 
 04_thread_self_manage.s: 04_thread_self_manage.cpp.s
@@ -164,7 +164,7 @@ src2/CMakeFiles/12_async_task.dir/rule:
 
 # target to generate assembly for a file
 04_thread_self_manage.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/04_thread_self_manage.dir/build.make src2/CMakeFiles/04_thread_self_manage.dir/04_thread_self_manage.cpp.s
 .PHONY : 04_thread_self_manage.cpp.s
 
 12_async_task.o: 12_async_task.cpp.o
@@ -173,7 +173,7 @@ src2/CMakeFiles/12_async_task.dir/rule:
 
 # target to build an object file
 12_async_task.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o
 .PHONY : 12_async_task.cpp.o
 
 12_async_task.i: 12_async_task.cpp.i
@@ -182,7 +182,7 @@ src2/CMakeFiles/12_async_task.dir/rule:
 
 # target to preprocess a source file
 12_async_task.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.i
 .PHONY : 12_async_task.cpp.i
 
 12_async_task.s: 12_async_task.cpp.s
@@ -191,7 +191,7 @@ src2/CMakeFiles/12_async_task.dir/rule:
 
 # target to generate assembly for a file
 12_async_task.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src2/CMakeFiles/12_async_task.dir/build.make src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.s
 .PHONY : 12_async_task.cpp.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

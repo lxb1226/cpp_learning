@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src/CMakeFiles/progress.marks
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src/CMakeFiles/progress.marks
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/example6_3.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_3.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_3.dir/rule
 .PHONY : src/CMakeFiles/example6_3.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ example6_3: src/CMakeFiles/example6_3.dir/rule
 
 # fast build rule for target.
 example6_3/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/build
 .PHONY : example6_3/fast
 
 # Convenience name for target.
 src/CMakeFiles/example6_2.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_2.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_2.dir/rule
 .PHONY : src/CMakeFiles/example6_2.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ example6_2: src/CMakeFiles/example6_2.dir/rule
 
 # fast build rule for target.
 example6_2/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/build
 .PHONY : example6_2/fast
 
 # Convenience name for target.
 src/CMakeFiles/example04.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example04.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example04.dir/rule
 .PHONY : src/CMakeFiles/example04.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ example04: src/CMakeFiles/example04.dir/rule
 
 # fast build rule for target.
 example04/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/build
 .PHONY : example04/fast
 
 # Convenience name for target.
 src/CMakeFiles/example3_1.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_1.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_1.dir/rule
 .PHONY : src/CMakeFiles/example3_1.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ example3_1: src/CMakeFiles/example3_1.dir/rule
 
 # fast build rule for target.
 example3_1/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/build
 .PHONY : example3_1/fast
 
 # Convenience name for target.
 src/CMakeFiles/example3_2.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_2.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_2.dir/rule
 .PHONY : src/CMakeFiles/example3_2.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ example3_2: src/CMakeFiles/example3_2.dir/rule
 
 # fast build rule for target.
 example3_2/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/build
 .PHONY : example3_2/fast
 
 # Convenience name for target.
 src/CMakeFiles/example3_3.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_3.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_3.dir/rule
 .PHONY : src/CMakeFiles/example3_3.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ example3_3: src/CMakeFiles/example3_3.dir/rule
 
 # fast build rule for target.
 example3_3/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/build
 .PHONY : example3_3/fast
 
 # Convenience name for target.
 src/CMakeFiles/example3_4.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_4.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example3_4.dir/rule
 .PHONY : src/CMakeFiles/example3_4.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ example3_4: src/CMakeFiles/example3_4.dir/rule
 
 # fast build rule for target.
 example3_4/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/build
 .PHONY : example3_4/fast
 
 # Convenience name for target.
 src/CMakeFiles/example6_1.dir/rule:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_1.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example6_1.dir/rule
 .PHONY : src/CMakeFiles/example6_1.dir/rule
 
 # Convenience name for target.
@@ -227,7 +227,7 @@ example6_1: src/CMakeFiles/example6_1.dir/rule
 
 # fast build rule for target.
 example6_1/fast:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/build
 .PHONY : example6_1/fast
 
 example04.o: example04.cpp.o
@@ -236,7 +236,7 @@ example04.o: example04.cpp.o
 
 # target to build an object file
 example04.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04.cpp.o
 .PHONY : example04.cpp.o
 
 example04.i: example04.cpp.i
@@ -245,7 +245,7 @@ example04.i: example04.cpp.i
 
 # target to preprocess a source file
 example04.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04.cpp.i
 .PHONY : example04.cpp.i
 
 example04.s: example04.cpp.s
@@ -254,7 +254,7 @@ example04.s: example04.cpp.s
 
 # target to generate assembly for a file
 example04.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04.cpp.s
 .PHONY : example04.cpp.s
 
 example3_1.o: example3_1.cpp.o
@@ -263,7 +263,7 @@ example3_1.o: example3_1.cpp.o
 
 # target to build an object file
 example3_1.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/example3_1.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/example3_1.cpp.o
 .PHONY : example3_1.cpp.o
 
 example3_1.i: example3_1.cpp.i
@@ -272,7 +272,7 @@ example3_1.i: example3_1.cpp.i
 
 # target to preprocess a source file
 example3_1.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/example3_1.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/example3_1.cpp.i
 .PHONY : example3_1.cpp.i
 
 example3_1.s: example3_1.cpp.s
@@ -281,7 +281,7 @@ example3_1.s: example3_1.cpp.s
 
 # target to generate assembly for a file
 example3_1.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/example3_1.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_1.dir/build.make src/CMakeFiles/example3_1.dir/example3_1.cpp.s
 .PHONY : example3_1.cpp.s
 
 example3_2.o: example3_2.cpp.o
@@ -290,7 +290,7 @@ example3_2.o: example3_2.cpp.o
 
 # target to build an object file
 example3_2.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/example3_2.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/example3_2.cpp.o
 .PHONY : example3_2.cpp.o
 
 example3_2.i: example3_2.cpp.i
@@ -299,7 +299,7 @@ example3_2.i: example3_2.cpp.i
 
 # target to preprocess a source file
 example3_2.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/example3_2.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/example3_2.cpp.i
 .PHONY : example3_2.cpp.i
 
 example3_2.s: example3_2.cpp.s
@@ -308,7 +308,7 @@ example3_2.s: example3_2.cpp.s
 
 # target to generate assembly for a file
 example3_2.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/example3_2.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_2.dir/build.make src/CMakeFiles/example3_2.dir/example3_2.cpp.s
 .PHONY : example3_2.cpp.s
 
 example3_3.o: example3_3.cpp.o
@@ -317,7 +317,7 @@ example3_3.o: example3_3.cpp.o
 
 # target to build an object file
 example3_3.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.o
 .PHONY : example3_3.cpp.o
 
 example3_3.i: example3_3.cpp.i
@@ -326,7 +326,7 @@ example3_3.i: example3_3.cpp.i
 
 # target to preprocess a source file
 example3_3.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.i
 .PHONY : example3_3.cpp.i
 
 example3_3.s: example3_3.cpp.s
@@ -335,7 +335,7 @@ example3_3.s: example3_3.cpp.s
 
 # target to generate assembly for a file
 example3_3.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_3.dir/build.make src/CMakeFiles/example3_3.dir/example3_3.cpp.s
 .PHONY : example3_3.cpp.s
 
 example3_4.o: example3_4.cpp.o
@@ -344,7 +344,7 @@ example3_4.o: example3_4.cpp.o
 
 # target to build an object file
 example3_4.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.o
 .PHONY : example3_4.cpp.o
 
 example3_4.i: example3_4.cpp.i
@@ -353,7 +353,7 @@ example3_4.i: example3_4.cpp.i
 
 # target to preprocess a source file
 example3_4.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.i
 .PHONY : example3_4.cpp.i
 
 example3_4.s: example3_4.cpp.s
@@ -362,7 +362,7 @@ example3_4.s: example3_4.cpp.s
 
 # target to generate assembly for a file
 example3_4.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example3_4.dir/build.make src/CMakeFiles/example3_4.dir/example3_4.cpp.s
 .PHONY : example3_4.cpp.s
 
 example6_1.o: example6_1.cpp.o
@@ -371,7 +371,7 @@ example6_1.o: example6_1.cpp.o
 
 # target to build an object file
 example6_1.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/example6_1.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/example6_1.cpp.o
 .PHONY : example6_1.cpp.o
 
 example6_1.i: example6_1.cpp.i
@@ -380,7 +380,7 @@ example6_1.i: example6_1.cpp.i
 
 # target to preprocess a source file
 example6_1.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/example6_1.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/example6_1.cpp.i
 .PHONY : example6_1.cpp.i
 
 example6_1.s: example6_1.cpp.s
@@ -389,7 +389,7 @@ example6_1.s: example6_1.cpp.s
 
 # target to generate assembly for a file
 example6_1.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/example6_1.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_1.dir/build.make src/CMakeFiles/example6_1.dir/example6_1.cpp.s
 .PHONY : example6_1.cpp.s
 
 example6_2.o: example6_2.cpp.o
@@ -398,7 +398,7 @@ example6_2.o: example6_2.cpp.o
 
 # target to build an object file
 example6_2.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/example6_2.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/example6_2.cpp.o
 .PHONY : example6_2.cpp.o
 
 example6_2.i: example6_2.cpp.i
@@ -407,7 +407,7 @@ example6_2.i: example6_2.cpp.i
 
 # target to preprocess a source file
 example6_2.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/example6_2.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/example6_2.cpp.i
 .PHONY : example6_2.cpp.i
 
 example6_2.s: example6_2.cpp.s
@@ -416,7 +416,7 @@ example6_2.s: example6_2.cpp.s
 
 # target to generate assembly for a file
 example6_2.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/example6_2.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_2.dir/build.make src/CMakeFiles/example6_2.dir/example6_2.cpp.s
 .PHONY : example6_2.cpp.s
 
 example6_3.o: example6_3.cpp.o
@@ -425,7 +425,7 @@ example6_3.o: example6_3.cpp.o
 
 # target to build an object file
 example6_3.cpp.o:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/example6_3.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/example6_3.cpp.o
 .PHONY : example6_3.cpp.o
 
 example6_3.i: example6_3.cpp.i
@@ -434,7 +434,7 @@ example6_3.i: example6_3.cpp.i
 
 # target to preprocess a source file
 example6_3.cpp.i:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/example6_3.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/example6_3.cpp.i
 .PHONY : example6_3.cpp.i
 
 example6_3.s: example6_3.cpp.s
@@ -443,7 +443,7 @@ example6_3.s: example6_3.cpp.s
 
 # target to generate assembly for a file
 example6_3.cpp.s:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/example6_3.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(MAKE) -f src/CMakeFiles/example6_3.dir/build.make src/CMakeFiles/example6_3.dir/example6_3.cpp.s
 .PHONY : example6_3.cpp.s
 
 # Help Target
@@ -497,6 +497,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

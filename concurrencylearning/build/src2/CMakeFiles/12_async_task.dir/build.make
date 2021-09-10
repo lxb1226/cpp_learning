@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build
 
 # Include any dependencies generated for this target.
 include src2/CMakeFiles/12_async_task.dir/depend.make
@@ -59,16 +59,16 @@ include src2/CMakeFiles/12_async_task.dir/flags.make
 
 src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o: src2/CMakeFiles/12_async_task.dir/flags.make
 src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o: ../src2/12_async_task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o"
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/12_async_task.dir/12_async_task.cpp.o -c /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src2/12_async_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o"
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/12_async_task.dir/12_async_task.cpp.o -c /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src2/12_async_task.cpp
 
 src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/12_async_task.dir/12_async_task.cpp.i"
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src2/12_async_task.cpp > CMakeFiles/12_async_task.dir/12_async_task.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src2/12_async_task.cpp > CMakeFiles/12_async_task.dir/12_async_task.cpp.i
 
 src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/12_async_task.dir/12_async_task.cpp.s"
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src2/12_async_task.cpp -o CMakeFiles/12_async_task.dir/12_async_task.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src2/12_async_task.cpp -o CMakeFiles/12_async_task.dir/12_async_task.cpp.s
 
 src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o.requires:
 
@@ -91,8 +91,8 @@ src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o.provides.build: src2/CMake
 src2/12_async_task: src2/CMakeFiles/12_async_task.dir/12_async_task.cpp.o
 src2/12_async_task: src2/CMakeFiles/12_async_task.dir/build.make
 src2/12_async_task: src2/CMakeFiles/12_async_task.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 12_async_task"
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/12_async_task.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 12_async_task"
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/12_async_task.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src2/CMakeFiles/12_async_task.dir/build: src2/12_async_task
@@ -104,10 +104,10 @@ src2/CMakeFiles/12_async_task.dir/requires: src2/CMakeFiles/12_async_task.dir/12
 .PHONY : src2/CMakeFiles/12_async_task.dir/requires
 
 src2/CMakeFiles/12_async_task.dir/clean:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2 && $(CMAKE_COMMAND) -P CMakeFiles/12_async_task.dir/cmake_clean.cmake
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2 && $(CMAKE_COMMAND) -P CMakeFiles/12_async_task.dir/cmake_clean.cmake
 .PHONY : src2/CMakeFiles/12_async_task.dir/clean
 
 src2/CMakeFiles/12_async_task.dir/depend:
-	cd /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/heyjude/workspace/projects/cpp_learning/concurrencylearning /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/src2 /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2 /home/heyjude/workspace/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/12_async_task.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/src2 /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2 /home/heyjude/workspace/projects/cpp/projects/cpp_learning/concurrencylearning/build/src2/CMakeFiles/12_async_task.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src2/CMakeFiles/12_async_task.dir/depend
 
