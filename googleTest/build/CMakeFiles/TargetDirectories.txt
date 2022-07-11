@@ -1,0 +1,4 @@
+/home/heyjude/workspace/projects/cpp_learning/googleTest/build/CMakeFiles/rebuild_cache.dir
+/home/heyjude/workspace/projects/cpp_learning/googleTest/build/CMakeFiles/edit_cache.dir
+/home/heyjude/workspace/projects/cpp_learning/googleTest/build/CMakeFiles/test.dir
+/home/heyjude/workspace/projects/cpp_learning/googleTest/build/CMakeFiles/MyTests.dir

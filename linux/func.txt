@@ -1,0 +1,105 @@
+Vtable for 'Entity3' (3 entries).
+   0 | offset_to_top (0)
+   1 | Entity3 RTTI
+       -- (Entity3, 0) vtable address --
+   2 | void Entity3::vfunc()
+
+VTable indices for 'Entity3' (1 entries).
+   0 | void Entity3::vfunc()
+
+Vtable for 'B' (4 entries).
+   0 | offset_to_top (0)
+   1 | B RTTI
+       -- (B, 0) vtable address --
+   2 | void B::vfuncA1()
+   3 | void B::vfuncA2()
+
+VTable indices for 'B' (2 entries).
+   0 | void B::vfuncA1()
+   1 | void B::vfuncA2()
+
+Vtable for 'AAA' (4 entries).
+   0 | offset_to_top (0)
+   1 | AAA RTTI
+       -- (AAA, 0) vtable address --
+   2 | void AAA::vfuncA1()
+   3 | void AAA::vfuncA2()
+
+VTable indices for 'AAA' (2 entries).
+   0 | void AAA::vfuncA1()
+   1 | void AAA::vfuncA2()
+
+Vtable for 'BBB' (5 entries).
+   0 | offset_to_top (0)
+   1 | BBB RTTI
+       -- (AAA, 0) vtable address --
+       -- (BBB, 0) vtable address --
+   2 | void BBB::vfuncA1()
+   3 | void AAA::vfuncA2()
+   4 | void BBB::vfuncB()
+
+VTable indices for 'BBB' (2 entries).
+   0 | void BBB::vfuncA1()
+   2 | void BBB::vfuncB()
+
+Vtable for 'CCC' (6 entries).
+   0 | offset_to_top (0)
+   1 | CCC RTTI
+       -- (AAA, 0) vtable address --
+       -- (BBB, 0) vtable address --
+       -- (CCC, 0) vtable address --
+   2 | void CCC::vfuncA1()
+   3 | void AAA::vfuncA2()
+   4 | void BBB::vfuncB()
+   5 | void CCC::vfuncC()
+
+VTable indices for 'CCC' (2 entries).
+   0 | void CCC::vfuncA1()
+   3 | void CCC::vfuncC()
+
+Vtable for 'AAAA' (4 entries).
+   0 | offset_to_top (0)
+   1 | AAAA RTTI
+       -- (AAAA, 0) vtable address --
+   2 | void AAAA::vfuncA1()
+   3 | void AAAA::vfuncA2()
+
+VTable indices for 'AAAA' (2 entries).
+   0 | void AAAA::vfuncA1()
+   1 | void AAAA::vfuncA2()
+
+Vtable for 'BBBB' (4 entries).
+   0 | offset_to_top (0)
+   1 | BBBB RTTI
+       -- (BBBB, 0) vtable address --
+   2 | void BBBB::vfuncB1()
+   3 | void BBBB::vfuncB2()
+
+VTable indices for 'BBBB' (2 entries).
+   0 | void BBBB::vfuncB1()
+   1 | void BBBB::vfuncB2()
+
+Vtable for 'CCCC' (10 entries).
+   0 | offset_to_top (0)
+   1 | CCCC RTTI
+       -- (AAAA, 0) vtable address --
+       -- (CCCC, 0) vtable address --
+   2 | void CCCC::vfuncA1()
+   3 | void AAAA::vfuncA2()
+   4 | void CCCC::vfuncC()
+   5 | void CCCC::vfuncB1()
+   6 | offset_to_top (-16)
+   7 | CCCC RTTI
+       -- (BBBB, 16) vtable address --
+   8 | void CCCC::vfuncB1()
+       [this adjustment: -16 non-virtual]
+   9 | void BBBB::vfuncB2()
+
+Thunks for 'void CCCC::vfuncB1()' (1 entry).
+   0 | this adjustment: -16 non-virtual
+
+VTable indices for 'CCCC' (3 entries).
+   0 | void CCCC::vfuncA1()
+   2 | void CCCC::vfuncC()
+   3 | void CCCC::vfuncB1()
+
