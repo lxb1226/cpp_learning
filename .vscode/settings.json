@@ -60,5 +60,6 @@
         "set": "cpp",
         "cinttypes": "cpp",
         "stdlib.h": "c"
-    }
+    },
+    "cmake.configureOnOpen": false
 }

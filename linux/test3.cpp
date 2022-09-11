@@ -31,7 +31,7 @@ class Entity3
     virtual void vfunc() {}
 };
 
-// 单一的类 布袋虚函数
+// 单一的类 带有虚函数
 class A
 {
 private:
@@ -104,6 +104,7 @@ public:
     virtual void vfuncA1() {}
     virtual void vfuncC() {}
 };
+
 
 // 多继承
 class AAAA
